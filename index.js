@@ -56,7 +56,7 @@ copyBtn.addEventListener('click', () => {
 const uploadFile = () => {
   if (fileInput.files.length > 1) {
     resetFileInput();
-    showToast('Can upload one at a time!!');
+    showToast('Can upload one at a time!! try to upload zip of all file');
     return;
   }
   const file = fileInput.files[0];
